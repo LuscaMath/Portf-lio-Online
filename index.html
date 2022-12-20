@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Portfólio Online</title>
+</head>
+
+<body id="body">
+    <main id="main" data-theme="light">
+        <header class="header">
+            <nav class="navigation">
+                <a class="logo" href="index.html">LM</a>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#main-section" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Serviços</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Contato</a></li>
+                </ul>
+                <div class="toogle">
+                    <input type="checkbox" id="chk" />
+                    <label for="chk" class="switch">
+                        <img style="width: 25px;" src="./imagens/sol.png" class="slider">
+                    </label>
+                </div>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </header>
+
+        <section class="main-section" id="main-section">
+            <div class="text-info" data-aos="fade-down-right" data-aos-duration="3000">
+                <h2>Olá,</h2>
+                <h2>Meu nome é Lucas,</h2>
+                <h2>Espero que goste do meu trabalho</h2>
+                <div class="btn">
+                    <button>Download CV</button>
+                </div>
+            </div>
+            <div class="img-content" data-aos="fade-down-left" data-aos-duration="3000">
+                <img src="./imagens/undraw_code_thinking_re_gka2.svg" alt="">
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="title-box" data-aos="fade-down" data-aos-duration="3000">
+                <div class="text-box">
+                    <h1>Sobre</h1>
+                    <p>Eu sou formado em Análise e Desenvolvimento de sistemas e estou me especializando em
+                        desenvolvimento voltado para a web,
+                        possuo experiência no desenvolvimento de projetos utilizando as tecnologias HTML5, CSS3,
+                        BootStrap, JavaScript e PHP.</p>
+                </div>
+            </div>
+
+            <div class="img-box" data-aos="fade-up" data-aos-duration="3000">
+                <img src="./imagens/undraw_code_review_re_woeb.svg" alt="">
+            </div>
+        </section>
+
+        <section class="teste">
+
+        </section>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </main>
+</body>
+
+</html>
