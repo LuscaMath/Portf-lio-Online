@@ -9,8 +9,6 @@ const navMenu = document.querySelector('.nav-menu')
 hamburger.addEventListener('click', () => {
     hamburger.classList.toggle('active')
     navMenu.classList.toggle('active')
-
-
 })
 
 document.querySelectorAll('.nav-link').forEach(n => {
@@ -25,8 +23,6 @@ toogle.addEventListener('click', function() {
         root.style.setProperty('--primary-color', '#656DC8')
         root.style.setProperty('--secondary-color', '#ffffff')
         slider.setAttribute('src', './imagens/sol.png');
-        header.style.backgroundColor = '#2c2c2c'
-        navMenu.style.backgroundColor = '#2c2c2c'
         slider.style.backgroundColor = 'yellow'
         main.dataset.theme = 'light'
     } else {
@@ -34,8 +30,6 @@ toogle.addEventListener('click', function() {
         root.style.setProperty('--secondary-color', '#ffffff')
         slider.setAttribute('src', './imagens/lua.png');
         slider.style.backgroundColor = '#48b4e0'
-        navMenu.style.backgroundColor = '#656DC8'
-        header.style.backgroundColor = '#656DC8'
         main.dataset.theme = 'dark'
     }
 })
