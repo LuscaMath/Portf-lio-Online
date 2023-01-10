@@ -3,6 +3,16 @@
     margin: 0;
     box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins&display=swap');
+
+.teste {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.teste:hover {
+    color: var(--font-color)
+}
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Roboto&family=Roboto+Condensed&display=swap');
 @import "./colors/colors.scss";
 @import "./pages/home.scss";
